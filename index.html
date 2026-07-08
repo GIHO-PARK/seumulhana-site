@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>스물하나 | 건강기능식품 &amp; 해외직구 쇼핑몰</title>
+<style>
+  :root{
+    --green-900:#1f3d2b;
+    --green-700:#2f6b46;
+    --green-500:#4a9b6e;
+    --green-100:#eaf5ee;
+    --cream:#fbf9f4;
+    --ink:#233028;
+    --muted:#6b7a71;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    font-family:"Pretendard","Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    color:var(--ink);
+    background:var(--cream);
+    line-height:1.6;
+  }
+  header{
+    position:sticky; top:0; z-index:10;
+    background:var(--cream);
+    border-bottom:1px solid #e6e1d6;
+  }
+  .nav{
+    max-width:1040px; margin:0 auto; padding:18px 24px;
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  .brand{font-size:20px; font-weight:800; color:var(--green-900); letter-spacing:-0.02em;}
+  .brand span{color:var(--green-500);}
+  nav ul{list-style:none; display:flex; gap:28px; margin:0; padding:0;}
+  nav a{color:var(--ink); text-decoration:none; font-size:15px; font-weight:500;}
+  nav a:hover{color:var(--green-700);}
+
+  .hero{
+    max-width:1040px; margin:0 auto; padding:80px 24px 60px;
+    display:grid; grid-template-columns:1.1fr 0.9fr; gap:40px; align-items:center;
+  }
+  .hero h1{
+    font-size:40px; line-height:1.3; margin:0 0 18px; color:var(--green-900);
+    letter-spacing:-0.02em;
+  }
+  .hero p{font-size:16px; color:var(--muted); max-width:480px;}
+  .badge{
+    display:inline-block; background:var(--green-100); color:var(--green-700);
+    padding:6px 14px; border-radius:999px; font-size:13px; font-weight:600; margin-bottom:16px;
+  }
+  .hero-visual{
+    background:linear-gradient(160deg, var(--green-500), var(--green-900));
+    border-radius:24px; aspect-ratio:4/3; display:flex; align-items:center; justify-content:center;
+  }
+  .hero-visual span{font-size:64px;}
+
+  section{max-width:1040px; margin:0 auto; padding:50px 24px;}
+  .section-title{font-size:26px; font-weight:800; color:var(--green-900); margin-bottom:8px;}
+  .section-sub{color:var(--muted); margin-bottom:36px; font-size:15px;}
+
+  .cards{display:grid; grid-template-columns:repeat(3,1fr); gap:24px;}
+  .card{
+    background:#fff; border:1px solid #ece6d8; border-radius:16px; padding:28px;
+  }
+  .card .icon{font-size:28px; margin-bottom:14px;}
+  .card h3{margin:0 0 10px; font-size:17px; color:var(--green-900);}
+  .card p{margin:0; font-size:14px; color:var(--muted);}
+
+  .about{
+    background:var(--green-100); border-radius:24px; padding:44px;
+    display:grid; grid-template-columns:1fr 1fr; gap:32px;
+  }
+  .about h3{color:var(--green-900); margin-top:0;}
+  .about dl{margin:0;}
+  .about dt{font-weight:700; color:var(--green-900); font-size:13px; margin-top:14px;}
+  .about dd{margin:2px 0 0; color:var(--ink); font-size:14px;}
+
+  footer{
+    border-top:1px solid #e6e1d6; margin-top:40px;
+  }
+  .footer-inner{
+    max-width:1040px; margin:0 auto; padding:36px 24px 48px;
+    font-size:13px; color:var(--muted);
+  }
+  .footer-inner a{color:var(--green-700); text-decoration:none;}
+  .footer-grid{display:flex; flex-wrap:wrap; gap:6px 18px; margin-bottom:10px;}
+
+  @media (max-width:760px){
+    .hero{grid-template-columns:1fr;}
+    .cards{grid-template-columns:1fr;}
+    .about{grid-template-columns:1fr;}
+    nav ul{display:none;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="nav">
+    <div class="brand">스물하나<span>.</span></div>
+    <nav>
+      <ul>
+        <li><a href="#about">회사소개</a></li>
+        <li><a href="#business">사업분야</a></li>
+        <li><a href="#contact">연락처</a></li>
+        <li><a href="privacy.html">개인정보처리방침</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div>
+    <span class="badge">건강기능식품 · 해외직구 편집몰</span>
+    <h1>몸에 좋은 것만 골라,<br>세상 어디서든 데려옵니다.</h1>
+    <p>스물하나는 검증된 건강보조식품과 해외 직구 상품을 엄선해 소개하는 온라인 쇼핑몰입니다. 믿을 수 있는 소싱과 빠른 배송으로 고객의 건강한 하루를 돕습니다.</p>
+  </div>
+  <div class="hero-visual"><span>🌿</span></div>
+</div>
+
+<section id="business">
+  <div class="section-title">사업 분야</div>
+  <div class="section-sub">사업자등록증 기준 등록 업태 및 종목</div>
+  <div class="cards">
+    <div class="card">
+      <div class="icon">🛒</div>
+      <h3>전자상거래 소매업</h3>
+      <p>자사 온라인몰을 통해 건강·라이프스타일 상품을 소비자에게 직접 판매합니다.</p>
+    </div>
+    <div class="card">
+      <div class="icon">💊</div>
+      <h3>건강보조식품 소매업</h3>
+      <p>비타민, 유산균, 오메가3 등 검증된 건강기능식품을 엄선하여 판매합니다.</p>
+    </div>
+    <div class="card">
+      <div class="icon">✈️</div>
+      <h3>해외직구 대행업</h3>
+      <p>해외 우수 제품을 발굴하고 통관·배송까지 대행하여 안전하게 전달합니다.</p>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="about">
+    <div>
+      <h3>회사 소개</h3>
+      <p style="color:var(--ink); font-size:14px;">스물하나는 건강기능식품과 해외직구 상품을 중심으로 한 전자상거래 소매업체입니다. 고객이 믿고 구매할 수 있는 상품만을 선별하여 소개하는 것을 원칙으로 합니다.</p>
+    </div>
+    <dl>
+      <dt>상호</dt><dd>스물하나</dd>
+      <dt>대표자</dt><dd>박기호</dd>
+      <dt>사업자등록번호</dt><dd>692-60-00818</dd>
+      <dt>업태 / 종목</dt><dd>도매 및 소매업 / 전자상거래소매업, 건강보조식품소매업, 해외직구대행업</dd>
+      <dt>소재지</dt><dd>충청남도 천안시 동남구 성황로 40, 111동 902호(문화동, 천안역 필하우스 에듀시티 1단지)</dd>
+    </dl>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="section-title">연락처</div>
+  <div class="section-sub">문의사항은 아래 연락처로 언제든 연락 주세요.</div>
+  <div class="cards" style="grid-template-columns:repeat(2,1fr);">
+    <div class="card">
+      <div class="icon">📞</div>
+      <h3>전화</h3>
+      <p>010-5591-5751</p>
+    </div>
+    <div class="card">
+      <div class="icon">✉️</div>
+      <h3>이메일</h3>
+      <p>contact@seumulhana.co.kr</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <span>스물하나</span>
+      <span>대표: 박기호</span>
+      <span>사업자등록번호: 692-60-00818</span>
+      <span>주소: 충청남도 천안시 동남구 성황로 40, 111동 902호(문화동, 천안역 필하우스 에듀시티 1단지)</span>
+    </div>
+    <div>© 2026 Seumulhana. All rights reserved. · <a href="privacy.html">개인정보처리방침</a></div>
+  </div>
+</footer>
+
+</body>
+</html>
